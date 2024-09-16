@@ -13,19 +13,40 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\ch01">
+      <UniqueIdentifier>{c58925c8-661c-4979-9135-3539631eedac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ch02">
+      <UniqueIdentifier>{728af84e-7dd0-4b8d-8d1b-b9456e5d7648}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="02.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="01.c">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\ch01</Filter>
+    </ClCompile>
+    <ClCompile Include="02.c">
+      <Filter>소스 파일\ch01</Filter>
     </ClCompile>
     <ClCompile Include="03.c">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\ch01</Filter>
     </ClCompile>
     <ClCompile Include="04.c">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\ch01</Filter>
+    </ClCompile>
+    <ClCompile Include="05.c">
+      <Filter>소스 파일\ch02</Filter>
+    </ClCompile>
+    <ClCompile Include="06.c">
+      <Filter>소스 파일\ch02</Filter>
+    </ClCompile>
+    <ClCompile Include="07.c">
+      <Filter>소스 파일\ch02</Filter>
+    </ClCompile>
+    <ClCompile Include="08.c">
+      <Filter>소스 파일\ch02</Filter>
+    </ClCompile>
+    <ClCompile Include="09.c">
+      <Filter>소스 파일\ch02</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
