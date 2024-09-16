@@ -55,6 +55,15 @@
       <Filter>소스 파일\ch02</Filter>
     </ClCompile>
     <ClCompile Include="12.c">
+      <Filter>소스 파일\ch02</Filter>
+    </ClCompile>
+    <ClCompile Include="13_Q.c">
+      <Filter>소스 파일\ch02</Filter>
+    </ClCompile>
+    <ClCompile Include="14_Q.c">
+      <Filter>소스 파일\ch02</Filter>
+    </ClCompile>
+    <ClCompile Include="15_Q.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

@@ -139,6 +139,9 @@
     <ClCompile Include="10.c" />
     <ClCompile Include="11.c" />
     <ClCompile Include="12.c" />
+    <ClCompile Include="13_Q.c" />
+    <ClCompile Include="14_Q.c" />
+    <ClCompile Include="15_Q.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
