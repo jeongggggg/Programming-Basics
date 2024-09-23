@@ -9,7 +9,7 @@ int main() {
 	int score;
 
 	printf("score : ");
-	scanf_s("%d", &score);
+	scanf("%d", &score);
 
 	if (score % 2 == 0) {
 		printf("two\n");

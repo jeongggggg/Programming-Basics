@@ -7,7 +7,7 @@ int main() {
 	
 	char ch;
 	printf("enter character: ");
-	scanf_s("%c", &ch,1); // 비주얼 스튜디오는 문자의 크기 작성이 필요함, 다른 IDE 에서는 scanf("%c", &ch); 로 작성 가능
+	scanf("%c", &ch,1); // 비주얼 스튜디오는 문자의 크기 작성이 필요함, 다른 IDE 에서는 scanf("%c", &ch); 로 작성 가능
 
 	if (ch >= 'A' && ch <= 'Z') {
 		printf("대문자\n");

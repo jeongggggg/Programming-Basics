@@ -1,15 +1,15 @@
 #include <stdio.h> 
 
-// nÀ» ÀÔ·Â¹Ş°í, n¸íÀÇ ¼ºÀûÀ» double ·Î ÀÔ·Â¹Ş°í ÇÕ°ú Æò±ÕÀ» double·Î Ãâ·ÂÇÏ´Â ÄÚµå¸¦ ¿Ï¼ºÇØº¸¼¼¿ä.
+// nì„ ì…ë ¥ë°›ê³ , nëª…ì˜ ì„±ì ì„ double ë¡œ ì…ë ¥ë°›ê³  í•©ê³¼ í‰ê· ì„ doubleë¡œ ì¶œë ¥í•˜ëŠ” ì½”ë“œë¥¼ ì™„ì„±í•´ë³´ì„¸ìš”.
 
 int main() {
 	int i, n;
 	double score, sum = 0.0, avg;
 	printf("n:");
-	scanf_s("%d", &n);
+	scanf("%d", &n);
 	for (i = 1; i <= n; i++) {
 		printf("score of no.%d: ", i);
-		scanf_s("%lf", &score);
+		scanf("%lf", &score);
 		sum = sum + score;
 	}
 

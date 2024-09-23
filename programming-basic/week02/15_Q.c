@@ -1,15 +1,15 @@
 #include <stdio.h> 
 
-// n을 입력받고, n명의 성적을 double 로 입력받고 합과 평균을 double로 출력하는 코드를 완성해보세요.
+// n�� �Է¹ް�, n���� ������ double �� �Է¹ް� �հ� ����� double�� ����ϴ� �ڵ带 �ϼ��غ�����.
 
 int main() {
 	int i, n;
 	double score, sum = 0.0, avg;
 	printf("n:");
-	scanf_s("%d", &n);
+	scanf("%d", &n);
 	for (i = 1; i <= n; i++) {
 		printf("score of no.%d: ", i);
-		scanf_s("%lf", &score);
+		scanf("%lf", &score);
 		sum = sum + score;
 	}
 

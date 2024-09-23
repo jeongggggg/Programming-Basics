@@ -10,10 +10,10 @@ int main() {
 	int n1, n2;
 
 	printf("enter two number \n");
-	scanf_s("%d%d", &n1, &n2);
+	scanf("%d%d", &n1, &n2);
 
 	printf("enter operator:");
-	scanf_s(" %c", &op,2); // *공란이 들어갈 수 있게 한칸 띄우고 입력
+	scanf(" %c", &op,2); // *공란이 들어갈 수 있게 한칸 띄우고 입력
 
 	switch (op) {
 	case '+' :

@@ -5,7 +5,7 @@ int main() {
 
 	int i, n;
 	printf("n:");
-	scanf_s("%d", &n);
+	scanf("%d", &n);
 
 	for (i = 1; i <= n; i++) {
 		if (1 % 3 == 0) 

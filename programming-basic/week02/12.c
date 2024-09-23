@@ -13,7 +13,7 @@ int main() {
 	int i, year, sum;
 	
 	printf("메뉴 : 1) 1~100까지 합 구하기 2) 윤년 구하기 3) 1~n까지의 2 또는 3의 배수 합 구하기 \n");
-	scanf_s("%d", &n);
+	scanf("%d", &n);
 
 	if (n == 1) {
 		sum = 0;
@@ -26,7 +26,7 @@ int main() {
 
 	else if (n == 2) {
 		printf("year :");
-		scanf_s("%d", &year);
+		scanf("%d", &year);
 
 		if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0) {
 			printf("leaf year \n");
@@ -38,7 +38,7 @@ int main() {
 
 	else if (n == 3) {
 		printf("n :");
-		scanf_s("%d", &n);
+		scanf("%d", &n);
 		sum = 0;
 
 		for (i = 0; i <= n; i++) {

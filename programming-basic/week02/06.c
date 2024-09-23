@@ -8,7 +8,7 @@
 int main() {
 
 	double f, c;
-	scanf_s("%lf", &f); // IDE에 따른 차이로 scanf 또는 scanf_s 사용, devc++ 의 경우 scanf 도 사용 가능
+	scanf("%lf", &f); // IDE에 따른 차이로 scanf 또는 scanf 사용, devc++ 의 경우 scanf 도 사용 가능
 
 	if(f > 32){
 		c = (f - 32) / 1.8;

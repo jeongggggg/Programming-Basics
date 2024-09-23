@@ -12,9 +12,9 @@ int main() {
 
 	while (1) {
 		printf("enter two number \n");
-		scanf_s("%d%d", &n1, &n2);
+		scanf("%d%d", &n1, &n2);
 		printf("enter operator:");
-		scanf_s(" %c", &op,2);
+		scanf(" %c", &op,2);
 
 		if (op == 'q') {
 			printf("end\n");
