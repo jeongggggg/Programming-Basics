@@ -1,6 +1,6 @@
 #include <stdio.h> 
 
-// n�� �Է¹ް�, n���� ������ double �� �Է¹ް� �հ� ����� double�� ����ϴ� �ڵ带 �ϼ��غ�����.
+// n을 입력받고, n명의 성적을 double 로 입력받고 합과 평균을 double로 출력하는 코드를 완성해보세요.
 
 int main() {
 	int i, n;
