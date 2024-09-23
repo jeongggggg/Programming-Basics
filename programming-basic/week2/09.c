@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-// »çÄ¢¿¬»ê ±âÈ£ÀÎ ¹®ÀÚ op¿Í µÎ Á¤¼ö n1, n2 ÀÔ·Â
-// op¿¡ µû¶ó ¿¬»ê °á°ú Ãâ·Â
-// switch ~ case »ç¿ë
+// ì‚¬ì¹™ì—°ì‚° ê¸°í˜¸ì¸ ë¬¸ì opì™€ ë‘ ì •ìˆ˜ n1, n2 ì…ë ¥
+// opì— ë”°ë¼ ì—°ì‚° ê²°ê³¼ ì¶œë ¥
+// switch ~ case ì‚¬ìš©
 
 int main() {
 
@@ -13,7 +13,7 @@ int main() {
 	scanf_s("%d%d", &n1, &n2);
 
 	printf("enter operator:");
-	scanf_s(" %c", &op,2); // *°ø¶õÀÌ µé¾î°¥ ¼ö ÀÖ°Ô ÇÑÄ­ ¶ç¿ì°í ÀÔ·Â
+	scanf_s(" %c", &op,2); // *ê³µë€ì´ ë“¤ì–´ê°ˆ ìˆ˜ ìˆê²Œ í•œì¹¸ ë„ìš°ê³  ì…ë ¥
 
 	switch (op) {
 	case '+' :
@@ -26,7 +26,7 @@ int main() {
 		printf("%d * %d = %d \n", n1, n2, n1 * n2);
 		break;
 	case '/':
-		// printf("%d / %d = %f \n", n1, n2, float(n1) / n2); // ½Ç¼ö¸¦ ¸ğµÎ º¸°í ½ÍÀ¸¸é float·Î º¯¼ö¸¦ ¹­¾îÁÖ¸é µÈ´Ù, dev c++ ¹®¹ı
+		// printf("%d / %d = %f \n", n1, n2, float(n1) / n2); // ì‹¤ìˆ˜ë¥¼ ëª¨ë‘ ë³´ê³  ì‹¶ìœ¼ë©´ floatë¡œ ë³€ìˆ˜ë¥¼ ë¬¶ì–´ì£¼ë©´ ëœë‹¤, dev c++ ë¬¸ë²•
 		printf("%d / %d = %f \n", n1, n2, (float)n1 / n2);
 		break;
 	default:

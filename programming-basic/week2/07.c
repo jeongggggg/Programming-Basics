@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-// Á¤¼ö°ª score ÀÔ·Â
-// score°¡ 2ÀÇ ¹è¼öÀÎ °æ¿ì 'two' ÀÔ·Â
-// score°¡ 2ÀÇ ¹è¼ö°¡ ¾Æ´Ï¸é¼­, 3ÀÇ ¹è¼öÀÎ °æ¿ì 'three' Ãâ·Â
-// ÀÌ¿Ü´Â 'etc' Ãâ·Â
+// ì •ìˆ˜ê°’ score ìž…ë ¥
+// scoreê°€ 2ì˜ ë°°ìˆ˜ì¸ ê²½ìš° 'two' ìž…ë ¥
+// scoreê°€ 2ì˜ ë°°ìˆ˜ê°€ ì•„ë‹ˆë©´ì„œ, 3ì˜ ë°°ìˆ˜ì¸ ê²½ìš° 'three' ì¶œë ¥
+// ì´ì™¸ëŠ” 'etc' ì¶œë ¥
 
 int main() {
 	int score;

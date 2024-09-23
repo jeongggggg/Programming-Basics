@@ -1,20 +1,20 @@
 #include <stdio.h>
 
-// 1~100±îÁö Â¦¼öµéÀÇ ÇÕ ±¸ÇÏ±â
-// for, while¹® ¸ğµÎ »ç¿ë
+// 1~100ê¹Œì§€ ì§ìˆ˜ë“¤ì˜ í•© êµ¬í•˜ê¸°
+// for, whileë¬¸ ëª¨ë‘ ì‚¬ìš©
 int main() {
 
 	int sum = 0;
 	int i = 1;
 	
-	// for¹® »ç¿ë
+	// forë¬¸ ì‚¬ìš©
 	for (i = 1; i <= 100; i++) {
 		if (i % 2 == 0) {
 			sum = sum + i;
 		}
 	}
 
-	// while¹® »ç¿ë
+	// whileë¬¸ ì‚¬ìš©
 	while (i <= 100) {
 		if (i % 2 == 0) {
 			sum = sum + i;
@@ -22,7 +22,7 @@ int main() {
 		i++; // i = i + 1;
 	}
 
-	printf("1~100±îÁöÀÇ Â¦¼öÀÇ ÇÕ : %d\n", sum);
+	printf("1~100ê¹Œì§€ì˜ ì§ìˆ˜ì˜ í•© : %d\n", sum);
 
 	return 0;
 }

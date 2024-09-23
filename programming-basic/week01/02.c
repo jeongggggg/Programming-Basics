@@ -1,7 +1,7 @@
 
 #include <stdio.h> 
 
-// 1À» True, 0À» Flase¶ó ÇÒ ¶§, a=T, b=T¿¡ ´ëÇÏ¿© ³í¸® ¿¬»ê
+// 1ì„ True, 0ì„ Flaseë¼ í•  ë•Œ, a=T, b=Tì— ëŒ€í•˜ì—¬ ë…¼ë¦¬ ì—°ì‚°
 
 int main(){
 	int a = 1, b = 1;

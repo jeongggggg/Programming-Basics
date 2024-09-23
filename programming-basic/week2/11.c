@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-// Á¤¼önum1, num2¿¡ ´ëÇÏ¿© °ªÀ» ÀÔ·Â
-// ¿¬»êÀÚ op¿¡ µû¶ó »çÄ¢¿¬»ê ÈÄ Ãâ·Â
-// op°¡ 'q'ÀÌ¸é, ¹İº¹ Á¾·á
-// while, switch~case »ç¿ë
+// ì •ìˆ˜num1, num2ì— ëŒ€í•˜ì—¬ ê°’ì„ ì…ë ¥
+// ì—°ì‚°ì opì— ë”°ë¼ ì‚¬ì¹™ì—°ì‚° í›„ ì¶œë ¥
+// opê°€ 'q'ì´ë©´, ë°˜ë³µ ì¢…ë£Œ
+// while, switch~case ì‚¬ìš©
 
 int main() {
 
@@ -32,7 +32,7 @@ int main() {
 				printf("%d * %d = %d \n", n1, n2, n1 * n2);
 				break;
 			case '/':
-				// printf("%d / %d = %f \n", n1, n2, float(n1) / n2); // ½Ç¼ö¸¦ ¸ğµÎ º¸°í ½ÍÀ¸¸é float·Î º¯¼ö¸¦ ¹­¾îÁÖ¸é µÈ´Ù, dev c++ ¹®¹ı
+				// printf("%d / %d = %f \n", n1, n2, float(n1) / n2); // ì‹¤ìˆ˜ë¥¼ ëª¨ë‘ ë³´ê³  ì‹¶ìœ¼ë©´ floatë¡œ ë³€ìˆ˜ë¥¼ ë¬¶ì–´ì£¼ë©´ ëœë‹¤, dev c++ ë¬¸ë²•
 				printf("%d / %d = %f \n", n1, n2, (float)n1 / n2);
 				break;
 			default:
