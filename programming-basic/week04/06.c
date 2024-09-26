@@ -26,7 +26,7 @@ int main(){
 
 int banolim(float a){
 
-    int b = a + 0.5;
+    int b = a + 0.5; // 실수에 대해서 반올림값을 알고 싶으면 +0.5를 한 후에 Integer 값을 return 하면 반올림 값과 같다.
 
     return b;
 }
