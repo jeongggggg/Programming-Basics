@@ -8,4 +8,6 @@ int main(){
 
     printf("val의 주소 : %p, val 값 : %d \n", &val, val);
     printf("ip에 저장된 값 : %p, ip가 가리키는 값 : %d \n", ip, *ip);
+
+    return 0;
 }
