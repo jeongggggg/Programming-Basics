@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+// 배열
 int main(){
     int a[4] = {0};
     int *ptr, i;

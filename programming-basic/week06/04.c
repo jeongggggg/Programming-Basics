@@ -1,5 +1,6 @@
 #include <stdio.h>
-
+ 
+ // 구조체
 struct user{
     int id;
     char name[30];
