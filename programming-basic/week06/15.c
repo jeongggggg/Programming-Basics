@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+// 구조체의 개념 및 활용 예제 3
 struct data{
     int month;
     int day;
