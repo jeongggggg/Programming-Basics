@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdio.h>
 
 // 입출력함수를 사용하여 코드 자유 작성
 
