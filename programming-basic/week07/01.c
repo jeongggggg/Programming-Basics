@@ -22,8 +22,8 @@ int main(){
     putchar(c);
     printf("\n");
     getchar();
-    printf("gets_s puts를 사용하여 name입력하고 출력하기 :\n");
-    gets_s(name,30);
+    printf("gets puts를 사용하여 name입력하고 출력하기 :\n");
+    gets(name,30);
     puts(name);
     printf("\n");
 
