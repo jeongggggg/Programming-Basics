@@ -15,7 +15,7 @@ int main(){
         
         u1[i].id = i+1;
         
-        scanf("%s", u1[i].name);
+        scanf("%s", &u1[i].name);
     
     }
     
